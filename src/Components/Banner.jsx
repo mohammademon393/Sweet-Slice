@@ -42,9 +42,9 @@ const Banner = () => {
           {/* Right Image Column */}
           <div className="relative order-1 md:order-2 flex justify-center">
             <img
-              src="https://i.ibb.co/d0rCZPtr/cake3-removebg-preview.png"
+              src="https://i.ibb.co/cSj7N4fj/delicious-cake-with-fruits-removebg-preview.png"
               alt="Delicious Strawberry Cake"
-              className="w-full max-w-[500px] object-contain drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
+              className="w-full max-w-[400px] object-contain drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>
