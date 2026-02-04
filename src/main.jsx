@@ -8,6 +8,7 @@ import Root from './Layout/Root.jsx';
 import Home from './Pages/Home.jsx';
 import About from './Pages/About.jsx';
 import Contact from './Pages/Contact.jsx';
+import Events from './Pages/Events.jsx';
 
 
 
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'events',
-        Component: Contact,
+        Component: Events,
       },
     ]
   },

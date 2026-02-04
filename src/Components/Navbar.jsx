@@ -61,7 +61,7 @@ const Navbar = () => {
 
 
     return (
-      <div className="bg-[#ffe1eb]">
+      <div className="bg-gradient-to-r from-[#FFC0CB] to-[#FFE4E1] shadow-md sticky top-0 z-50">
         <div className="navbar max-w-7xl mx-auto ">
           <div className="navbar-start">
             <div className="dropdown">
