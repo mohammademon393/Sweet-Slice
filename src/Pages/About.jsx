@@ -42,7 +42,7 @@ const About = () => {
           <span className="bg-pink-100 text-[#D63384] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
             Our Journey
           </span>
-          <h1 className="text-5xl md:text-6xl font-extrabold mt-4 mb-6">
+          <h1 className="text-3xl md:text-3xl font-bold mt-4 mb-6">
             About <span className="text-pink-500">SweetSlice</span>
           </h1>
           <p className="text-gray-500 text-lg italic">

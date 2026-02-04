@@ -1,4 +1,8 @@
+import { CircleUser, House, ShoppingCart, UserRound } from 'lucide-react';
 import React from 'react';
+import { BiSolidContact } from 'react-icons/bi';
+import { FcAbout } from 'react-icons/fc';
+import { MdEmojiEvents, MdLocationCity } from 'react-icons/md';
 import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
@@ -14,6 +18,7 @@ const Navbar = () => {
                 : "text-textDark hover:text-[#C70776]"
             }
           >
+            <House className="w-4 mr-[-5px]" />
             Home
           </NavLink>
         </li>
@@ -27,7 +32,7 @@ const Navbar = () => {
                 : "text-textDark hover:text-[#C70776]"
             }
           >
-            About
+            <MdLocationCity className="w-4 mr-[-5px]" /> About
           </NavLink>
         </li>
 
@@ -40,7 +45,7 @@ const Navbar = () => {
                 : "text-textDark hover:text-[#C70776]"
             }
           >
-            Events
+            <MdEmojiEvents className="w-4 mr-[-5px]" /> Events
           </NavLink>
         </li>
 
@@ -53,7 +58,7 @@ const Navbar = () => {
                 : "text-textDark hover:text-[#C70776]"
             }
           >
-            Contact Us
+            <BiSolidContact className="w-4 mr-[-5px]" /> Contact Us
           </NavLink>
         </li>
       </>
@@ -110,8 +115,11 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{Links}</ul>
           </div>
           <div className="navbar-end">
-            <Link to="/login" className="btn btn-neutral">
-              Login
+            <span className="btn border border-neutral-500 rounded-full bg-[#FFF5F7] btn-ghost btn-circle">
+              <ShoppingCart />
+            </span>
+            <Link to="/login" className="btn btn-neutral ml-2">
+              <CircleUser /> Login
             </Link>
           </div>
         </div>

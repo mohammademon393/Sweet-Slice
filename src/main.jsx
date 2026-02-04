@@ -11,6 +11,7 @@ import Contact from './Pages/Contact.jsx';
 import Events from './Pages/Events.jsx';
 import Login from './Pages/Login.jsx';
 import Register from './Pages/Register.jsx';
+import ErrorPage from './Components/ErrorPage.jsx';
 
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
         path: "/register",
         Component: Register,
       },
+      {
+        path: "*",  
+        Component: ErrorPage,
+      }
     ],
   },
 ]);
