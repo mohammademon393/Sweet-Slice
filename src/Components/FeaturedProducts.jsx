@@ -3,10 +3,11 @@ import { ShoppingBag, Search, Heart } from "lucide-react"; // lucide-react à¦†à¦
 
 const FeaturedProducts = () => {
   const products = [
-    { id: 1, image: "/cupcake1.png" },
-    { id: 2, image: "/cupcake2.png" },
-    { id: 3, image: "/cupcake3.png" },
-    { id: 4, image: "/cupcake4.png" },
+    { id: 1, image: "https://i.ibb.co/FLzW6JKh/simple4-removebg-preview.png" },
+    { id: 2, image: "https://i.ibb.co/qYBsM843/simple3-removebg-preview.png" },
+    { id: 3, image: "https://i.ibb.co/BKs8gPrg/simple2-removebg-preview.png" },
+    { id: 4, image: "https://i.ibb.co/8LGJLLtM/simplw5-removebg-preview.png" },
+
   ];
 
   return (
