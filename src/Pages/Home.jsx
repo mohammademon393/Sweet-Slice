@@ -4,6 +4,7 @@ import Banner from '../Components/Banner';
 import SpecialEvents from '../Components/SpecialEvents';
 import FeaturedProducts from '../Components/FeaturedProducts';
 import BestSales from '../Components/BestSales';
+import OneClickOrder from '../Components/OneClickOrder';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <SpecialEvents></SpecialEvents>
             <FeaturedProducts></FeaturedProducts>
             <BestSales></BestSales>
+            <OneClickOrder></OneClickOrder>
         </div>
     );
 };
