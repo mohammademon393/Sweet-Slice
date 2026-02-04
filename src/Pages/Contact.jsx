@@ -11,7 +11,7 @@ import {
 
 const ContactUs = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-[#FFF5F7]">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -25,7 +25,7 @@ const ContactUs = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
           {/* Left Side: Contact Information (Based on your Footer image) */}
-          <div className="space-y-8 bg-[#FFF5F7] p-10 rounded-3xl">
+          <div className="space-y-8 shadow-xl bg-white p-10 rounded-3xl">
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
                 <span className="text-pink-500">🍰</span> SweetSlice
@@ -95,7 +95,7 @@ const ContactUs = () => {
           </div>
 
           {/* Right Side: Contact Form */}
-          <div className="bg-white p-2 border border-gray-100 rounded-3xl shadow-xl shadow-pink-100/50">
+          <div className="bg-white p-2 border border-gray-100 rounded-3xl shadow-2xl shadow-pink-100/50">
             <form className="p-8 space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
