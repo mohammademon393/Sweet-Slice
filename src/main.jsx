@@ -12,6 +12,7 @@ import Events from './Pages/Events.jsx';
 import Login from './Pages/Login.jsx';
 import Register from './Pages/Register.jsx';
 import ErrorPage from './Components/ErrorPage.jsx';
+import OrderNow from './Components/OrderNow.jsx';
 
 
 
@@ -43,6 +44,14 @@ const router = createBrowserRouter([
       {
         path: "/register",
         Component: Register,
+      },
+      {
+        path: "/register",
+        Component: Register,
+      },
+      {
+        path: "/order",
+        Component: OrderNow,
       },
       {
         path: "*",  

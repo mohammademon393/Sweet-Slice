@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -20,9 +21,9 @@ const Banner = () => {
             </p>
 
             <div className="flex flex-wrap items-center gap-6">
-              <button className="px-8 py-3 border-2 border-black rounded-lg font-bold hover:bg-black hover:text-white transition-all duration-300">
+              <Link to="/order" className="px-8 py-3 border-2 border-black rounded-lg font-bold hover:bg-black hover:text-white transition-all duration-300">
                 Order Now
-              </button>
+              </Link>
               <a
                 href="tel:647-478-9464"
                 className="flex items-center gap-2 text-[#D63384] font-bold text-lg"
