@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const OneClickOrder = () => {
   return (
@@ -16,9 +17,9 @@ const OneClickOrder = () => {
               treats from our "always available" cupcakes.
             </p>
             <p className="text-[#D63384] text-2xl font-bold mb-6">$30/doz</p>
-            <button className="bg-black text-white px-10 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
+            <Link to="/order" className="bg-black text-white px-10 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
               Order Now
-            </button>
+            </Link>
           </div>
 
           {/* Product Image */}
