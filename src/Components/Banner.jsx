@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="bg-[#FFF0F5] ">
+    <section className="bg-[#FFF5F7] ">
       <section className="relative max-w-7xl mx-auto min-h-[500px]  flex items-center px-8 md:px-10 overflow-hidden">
         <div className="container mx-auto grid md:grid-cols-2 items-center gap-10">
           {/* Left Content Column */}
