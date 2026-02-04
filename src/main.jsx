@@ -9,6 +9,8 @@ import Home from './Pages/Home.jsx';
 import About from './Pages/About.jsx';
 import Contact from './Pages/Contact.jsx';
 import Events from './Pages/Events.jsx';
+import Login from './Pages/Login.jsx';
+import Register from './Pages/Register.jsx';
 
 
 
@@ -22,18 +24,26 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: 'about',
+        path: "/about",
         Component: About,
       },
       {
-        path: 'contact',
+        path: "contact",
         Component: Contact,
       },
       {
-        path: 'events',
+        path: "/events",
         Component: Events,
       },
-    ]
+      {
+        path: "/login",
+        Component: Login,
+      },
+      {
+        path: "/register",
+        Component: Register,
+      },
+    ],
   },
 ]);
 
